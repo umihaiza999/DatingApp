@@ -20,6 +20,7 @@ namespace API.Controller
         {
             var users = await _context.Users.ToListAsync();
             return users;
+            
         }
 
         [HttpGet("{id}")]
